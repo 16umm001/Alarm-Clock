@@ -22,7 +22,7 @@ if os.path.isfile("YT.txt") == False:
 #The User can set the time they want to wake up. The String the user puts in must be the same as the example to work.
 print "What time do you want to wake up?"
 print "Use this form.\nExample: 06:30"
-Alarm = raw_input("> ")
+Alarm = input("> ")
 
 
 #I first need to state the Time variable so it's usable in the while-loop
